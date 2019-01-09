@@ -30,8 +30,6 @@ weight = 5
 
 +++
 
-## **Biography**
-
 I work on the Adaptive Experimentation team at Facebook Core Data Science in New York.
 
 My research focuses on the intersection of machine learning and causal inference. A lot of my focus is on improving and routinizing the practice of massive online experimentation (e.g. through the judicious use of empirical Bayes). I'm also keenly interested in better applying the machinery of machine learning to observational causal inference (e.g. through improved weighting estimators). Likewise, I seek to use the lens of causal inference improve ML systems (e.g. systems that use contextual bandits or reinforcement learning).
