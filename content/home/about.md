@@ -12,7 +12,8 @@ weight = 5
   interests = [
     "Causal Inference",
     "Experimentation",
-    "Machine Learning"
+    "Machine Learning",
+    "Social Science"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -20,16 +21,19 @@ weight = 5
   course = "PhD in Politics"
   institution = "New York University"
   year = 2016
+  details = "Subfield: Methodology"
 
 [[education.courses]]
   course = "BA in International Studies"
   institution = "University of North Carolina at Chapel Hill"
   year = 2010
- 
+
 +++
 
-# Biography
+## **Biography**
 
-My work is primarily on statistical methodologies to improve causal inference. I focus on the confluence of machine learning and experimental design.
+I work on the Adaptive Experimentation team at Facebook Core Data Science in New York.
 
-I work on the Adaptive Experimentation team on Facebook's Core Data Science.
+My research focuses on the intersection of machine learning and causal inference. A lot of my focus is on improving and routinizing the practice of massive online experimentation (e.g. through the judicious use of empirical Bayes). I'm also keenly interested in better applying the machinery of machine learning to observational causal inference (e.g. through improved weighting estimators). Likewise, I seek to use the lens of causal inference improve ML systems (e.g. systems that use contextual bandits or reinforcement learning).
+
+Consistent with my training in political methodology, I'm most interested in methodological research useful for the study of social phenomena.

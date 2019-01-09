@@ -109,7 +109,7 @@ enableGitInfo = false
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "playfair"
+  font = "default"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
   description = ""
@@ -200,7 +200,8 @@ enableGitInfo = false
     'Report',  # 4
     'Book',  # 5
     'Book section',  # 6
-    'Conference presentation'   # 7
+    'Conference presentation',   # 7
+    'Software'   # 8
   ]
 
   # Configuration of talk pages.
@@ -273,6 +274,11 @@ enableGitInfo = false
     link = "https://scholar.google.com/citations?user=qMfnm48AAAAJ"
 
   [[params.social]]
+      icon = "linkedin"
+      icon_pack = "fab"
+      link = "https://www.linkedin.com/in/drew-dimmery/"
+
+  [[params.social]]
     icon = "github"
     icon_pack = "fab"
     link = "https://github.com/ddimmery"
@@ -282,7 +288,7 @@ enableGitInfo = false
   # [[params.social]]
   #   icon = "cv"
   #   icon_pack = "ai"
-  #   link = "files/cv.pdf"
+  #   link = "files/Dimmery_CV.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -298,25 +304,15 @@ enableGitInfo = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Research"
+  url = "#publications"
   weight = 2
-
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
-
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[menu.main]]
    name = "CV"
-   url = "files/cv.pdf"
+   url = "files/Dimmery_CV.pdf"
    weight = 7
 
 # Search.
