@@ -60,7 +60,7 @@ enableGitInfo = false
   organizations = [ { name = "Facebook Core Data Science", url = "https://research.fb.com/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "0084.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "0086.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "pddimmery@gmail.com"
