@@ -1,6 +1,6 @@
 +++
 title = "Adaptive Experimental Design for Social Science"
-date = 2018-01-01
+date = 2017-01-01
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
