@@ -1,5 +1,5 @@
 +++
-title = "Experiment Shrinkage"
+title = "Shrinkage Estimators in Online Experiments"
 date = 2017-10-28
 draft = false
 
