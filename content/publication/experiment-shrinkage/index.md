@@ -18,7 +18,7 @@ authors = ["Drew Dimmery", "Eytan Bakshy", "Jasjeet Sekhon"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Conference on Knowledge Discovert and Data Mining"
+publication = "Conference on Knowledge Discovery and Data Mining"
 publication_short = "KDD 2019"
 
 # Abstract and optional shortened version.
