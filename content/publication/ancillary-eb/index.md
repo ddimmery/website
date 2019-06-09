@@ -15,7 +15,7 @@ authors = ["Drew Dimmery", "Jasjeet Sekhon", "Eytan Bakshy"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["3"]
+publication_types = ["1"]
 
 # Abstract and optional shortened version.
 abstract = "Many problems in marketing and advertising seek to identify optimal treatments that increase real- world business metrics, such as conversions (e.g., purchases, installs). Yet faced with a paucity of data (conversion events tend to be much more rare than clicks), many practitioners and ap- plied researchers turn to a more proximal surrogate—click events. We develop an Empirical Bayes approach to combine biased (but precise) and unbiased (but noisy) estimates of causal effects, with particular attention to combining clickthrough rates (CTR) and conversion rates (CVR). This method produces mean-squared-error optimal estimates of the true conversion rate based on the estimated bias of the CTR estimates. We provide simulation evidence demonstrating the efficacy of this method based on two large randomized control trials run on the Facebook platform."
@@ -24,8 +24,8 @@ abstract_short = ""
 # Is this a selected publication? (true/false)
 selected = false
 
-publication = "Conference on Digital Experimentation, 2018"
-publication_short = "CODE 2018"
+publication = "*Conference on Digital Experimentation*"
+publication_short = "*CODE*"
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

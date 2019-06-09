@@ -15,11 +15,11 @@ authors = ["Molly Offer-Westort", "Drew Dimmery"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["3"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Conference on Digital Experimentation, 2018"
-publication_short = "CODE 2018"
+publication = "*Conference on Digital Experimentation*"
+publication_short = "*CODE*"
 
 # Abstract and optional shortened version.
 abstract = "An analyst may be interested in considering average differences in unit-level outcomes under alternative interventions, where counterfactuals of interest are where all units would be assigned the same treatment. For example, the average difference in outcomes when all units are assigned some new treatment compared to outcomes when all units are assigned the status quo treatment. Defining effects in terms of the assignments of all units is important when there is interference, as potential outcomes are a function not only of the unit’s direct treatment but also the treatments assigned to others. We term this target estimand the homogeneous average assignment-conditional unit-level treatment effect (the HAATE). This estimand has been considered by others, including Basse and Airoldi (2017) and Chin (2018), and is related to the expected average treatment effect (EATE) considered by Sävje et al. (2017). As with the EATE, the estimand reduces to the standard Average Treatment Effect (ATE) in settings with no interference."

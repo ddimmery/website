@@ -1,10 +1,10 @@
 +++
-title = "Permutation Weighting"
-date = 2019-01-08T22:51:39-05:00
+title = "Balanced Off-Policy Evaluation in General Action Spaces"
+date = 2019-06-09
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["David Arbour", "Drew Dimmery"]
+authors = ["Arjun Sondhi", "David Arbour", "Drew Dimmery"]
 
 # Publication type.
 # Legend:
@@ -15,16 +15,14 @@ authors = ["David Arbour", "Drew Dimmery"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["3"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
 publication = ""
 publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = """
-This work introduces permutation weighting: a weighting estimator for observational causal inference under general treatment regimes which preserves arbitrary measures of covariate balance. We show that estimating weights which obey balance constraints is equivalent to a simple binary classification problem between the observed data and a permuted dataset (no matter the cardinality of treatment). Arbitrary probabilistic classifiers may be used in this method; the hypothesis space of the classifier corresponds to the nature of the balance constraints imposed through the resulting weights.We show equivalence between existing covariate balancing weight estimators and permutation weighting and demonstrate estimation with improved efficiency through this regime. We provide theoretical results on the consistency of estimation of causal effects, and the necessity of balance infinite samples. Empirical evaluations indicate that the proposed method outperforms existing state of the art weighting methods for causal effect estimation, even when the data generating process corresponds to the assumptions imposed by prior work.
-"""
+abstract = "In many practical applications of contextual bandits, online learning is infeasible and practitioners must rely on off-policy evaluation (OPE) of logged data collected from prior policies. OPE generally consists of a combination of two components: (i) directly estimating a model of the reward given state and action and (ii) importance sampling. While recent work has made significant advances adaptively combining these two components, less attention has been paid to improving the quality of the importance weights themselves. In this work we present balancing off-policy evaluation (BOP-e), an importance sampling procedure that directly optimizes for balance and can be plugged into any OPE estimator that uses importance sampling. BOP-e directly estimates the importance sampling ratio via a classifier which attempts to distinguish state-action pairs from an observed versus a proposed policy. BOP-e can be applied to continuous, mixed, and multi-valued action spaces without modification and is easily scalable to many observations. Further, we show that minimization of regret in the constructed binary classification problem translates directly into minimizing regret in the off-policy evaluation task. Finally, we provide experimental evidence that BOP-e outperforms inverse propensity weighting-based approaches for offline evaluation of policies in the contextual bandit setting under both discrete and continuous action spaces."
 abstract_short = ""
 
 # Is this a selected publication? (true/false)
@@ -51,7 +49,7 @@ slides = ""
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1901.01230.pdf"
+url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""

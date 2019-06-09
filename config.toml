@@ -194,8 +194,8 @@ enableGitInfo = false
   #   translated.
   publication_types = [
     'Uncategorized',  # 0
-    'Conference paper',  # 1
-    'Journal article',  # 2
+    'Working paper',  # 1
+    'Publication',  # 2
     'Manuscript',  # 3
     'Report',  # 4
     'Book',  # 5
@@ -282,12 +282,12 @@ enableGitInfo = false
     icon = "github"
     icon_pack = "fab"
     link = "https://github.com/ddimmery"
-    
+
   [[params.social]]
     icon = "arxiv"
     icon_pack = "ai"
     link = "https://arxiv.org/a/dimmery_d_1.html"
-    
+
   [[params.social]]
     icon = "orcid"
     icon_pack = "ai"

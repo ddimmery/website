@@ -1,10 +1,10 @@
 +++
-title = "Permutation Weighting"
-date = 2019-01-08T22:51:39-05:00
+title = "Real-world Video Adaptation with Reinforcement Learning"
+date = 2019-04-30
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["David Arbour", "Drew Dimmery"]
+authors = ["Hongzi Mao", "Shannon Chen", "Drew Dimmery", "Shaun Singh", "Drew Blaisdell", "Yuandong Tian", "Mohammed Alizadeh", "Eytan Bakshy"]
 
 # Publication type.
 # Legend:
@@ -15,16 +15,14 @@ authors = ["David Arbour", "Drew Dimmery"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["3"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = ""
-publication_short = ""
+publication = "RL4RealLife 2019 : Reinforcement Learning for Real Life Workshop at ICML 2019"
+publication_short = "*ICML Workshop: RL4RealLife*"
 
 # Abstract and optional shortened version.
-abstract = """
-This work introduces permutation weighting: a weighting estimator for observational causal inference under general treatment regimes which preserves arbitrary measures of covariate balance. We show that estimating weights which obey balance constraints is equivalent to a simple binary classification problem between the observed data and a permuted dataset (no matter the cardinality of treatment). Arbitrary probabilistic classifiers may be used in this method; the hypothesis space of the classifier corresponds to the nature of the balance constraints imposed through the resulting weights.We show equivalence between existing covariate balancing weight estimators and permutation weighting and demonstrate estimation with improved efficiency through this regime. We provide theoretical results on the consistency of estimation of causal effects, and the necessity of balance infinite samples. Empirical evaluations indicate that the proposed method outperforms existing state of the art weighting methods for causal effect estimation, even when the data generating process corresponds to the assumptions imposed by prior work.
-"""
+abstract = "Client-side video players employ adaptive bitrate (ABR) algorithms to optimize user quality of experience (QoE). We evaluate recently proposed RL-based ABR methods in Facebook's web-based video streaming platform. Real-world ABR contains several challenges that requires customized designs beyond off-the-shelf RL algorithms—we implement a scalable neural network architecture that supports videos with arbitrary bitrate encodings; we design a training method to cope with the variance resulting from the stochasticity in network conditions; and we leverage constrained Bayesian optimization for reward shaping in order to optimize the conflicting QoE objectives. In a week-long worldwide deployment with more than 30 million video streaming sessions, our RL approach outperforms the prior ABR algorithm."
 abstract_short = ""
 
 # Is this a selected publication? (true/false)
@@ -51,7 +49,7 @@ slides = ""
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1901.01230.pdf"
+url_pdf = "https://openreview.net/forum?id=SJlCkwN8iV"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

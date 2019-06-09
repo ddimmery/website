@@ -4,7 +4,7 @@ date = 2016-03-14T22:59:52-05:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = [""]
+authors = ["Drew Dimmery"]
 
 # Publication type.
 # Legend:
@@ -19,7 +19,7 @@ publication_types = ["8"]
 
 # Publication name and optional abbreviated version.
 publication = "R package for Regression Discontinuity Estimation"
-publication_short = "rdd"
+publication_short = "CRAN"
 
 # Abstract and optional shortened version.
 abstract = "Provides the tools to undertake estimation in Regression Discontinuity Designs. Both sharp and fuzzy designs are supported. Estimation is accomplished using local linear regression. A provided function will utilize Imbens-Kalyanaraman optimal bandwidth calculation. A function is also included to test the assumption of no-sorting effects."

@@ -15,11 +15,11 @@ authors = ["Drew Dimmery", "Eytan Bakshy", "Jasjeet Sekhon"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["1"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Conference on Knowledge Discovery and Data Mining"
-publication_short = "KDD 2019"
+publication = "*Conference on Knowledge Discovery and Data Mining*"
+publication_short = "*KDD 2019*"
 
 # Abstract and optional shortened version.
 abstract = "We develop and analyze Empirical Bayes Stein-type estimators for use in the estimation of causal effects in large-scale online experiments. While online experiments are generally thought to be distinguished by their large sample size, they also tend to have both a high cardinality of treatment groups and of outcome measures. Even in this high-dimensional setting, though, the typical analysis practice is to use simple differences-in-means (perhaps with covariate adjustment) as if all treatment arms and outcomes were independent. We show that this approach is inadmissable. We develop shrinkage estimators which are trivially consistent (albeit with small amounts of bias in small samples). In addition to achieving lower mean squared error these estimators retain important frequentist properties such as coverage under most reasonable scenarios. Modern methods of experimentation such as multi-armed bandit optimization (where treatment allocations adapt over time to prior responses) also benefit from the use of our shrinkage estimators. We demonstrate the usefulness of these methods by examining seventeen large-scale experiments conducted on Facebook from April to June 2017."
