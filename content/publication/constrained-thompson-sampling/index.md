@@ -1,5 +1,5 @@
 +++
-title = "Thompson Sampling for Contextual Bandit Problemswith Auxiliary Safety Constraints"
+title = "Thompson Sampling for Contextual Bandit Problem swith Auxiliary Safety Constraints"
 date = 2019-10-16T20:12:12-04:00
 draft = false
 
